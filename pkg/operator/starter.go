@@ -628,6 +628,7 @@ var RevisionSecrets = []revision.RevisionResource{
 
 var CertConfigMaps = []installer.UnrevisionedResource{
 	{Name: "restore-etcd-pod"},
+	{Name: "external-etcd-pod"},
 	{Name: "etcd-scripts"},
 	{Name: "etcd-all-bundles"},
 }
